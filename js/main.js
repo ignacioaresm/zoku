@@ -21,7 +21,7 @@ let resultado = "";
   } else if (edad <= 18 && sexo === "hombre") {
     resultado = "Shōnen";
   } else if (edad <= 18 && sexo === "mujer") {
-    resultado = "Shōjo";
+    resultado = "Shōjo";   
   } else if (sexo === "hombre") {
     resultado = "Seinen";
   } else if (sexo === "mujer") {
