@@ -1,0 +1,8 @@
+[
+    { "id": 1, "nombre": "Evangelion 01", "precio": 5500, "img":"./img/manga1.png", "cantidad": 1 },
+    { "id": 2, "nombre": "Saint Seiya 06", "precio": 12500, "img": "./img/manga2.png", "cantidad": 1 },
+    { "id": 3, "nombre": "Tokyo Revengers 13", "precio": 5500, "img": "./img/manga3.png","cantidad": 1 },
+    { "id": 4, "nombre": "Jujutsu Kaisen 01", "precio": 8000, "img": "./img/manga4.png", "cantidad": 1 },
+    { "id": 5, "nombre": "Akira Volumen 04", "precio": 12500, "img": "./img/manga5.png", "cantidad": 1 },
+    { "id": 6, "nombre": "Attack on Titan 01", "precio": 4300, "img": "./img/manga6.png", "cantidad": 1 }
+]
