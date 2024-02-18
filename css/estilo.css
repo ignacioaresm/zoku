@@ -35,6 +35,7 @@ h3{
     position: sticky;
     z-index: 3;
     top: 0;
+    height: auto;
 }
 
 
@@ -45,6 +46,15 @@ h3{
     height: 10vh;
     background-color: rgb(0, 0, 0);
 }
+
+@media (max-width: 768px){
+    .navbar{
+        height: 10vh;
+    }
+    .cantidad-carrito{
+
+    }
+}  
 
 .navbar-logo{
     justify-self: start;
@@ -344,3 +354,4 @@ footer{
 .social-icons i{
     font-size: large;
 }
+
