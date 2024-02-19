@@ -7,6 +7,7 @@
 /* Estilos generales */
 body{
     font-family: 'DM Mono', monospace;
+    font-size: 15px;
 }
 
 h1,h2,h3,h4{
@@ -191,11 +192,12 @@ h4{
 /* modal content */
 
 .modal-container{
+   
     width: 80%;
+    height: auto;
     margin: 0 10%;
     padding-top: 50px;
     padding-bottom: 50px;
-    max-height: 88vh;
     color: white;
     background-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -204,12 +206,12 @@ h4{
     align-items: center;
     justify-content: center;
     /* top */
-    position: fixed;
+    position: absolute;
     overflow: auto;
     z-index: 9;
     top: 15vh;
-    scrollbar-color: none;
     border-radius: 5px;
+    
 }
 
 .modal-container ::-webkit-scrollbar{
@@ -235,6 +237,7 @@ h4{
     background-color: black;
     color: white;
     width: 100%;
+    
 }
 
 @media (max-width: 768px){
@@ -294,7 +297,7 @@ h4{
 
 .total-content{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
@@ -302,6 +305,7 @@ h4{
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
     border-bottom: 2px solid white;
+    
 }
 
 /* boton borrar */

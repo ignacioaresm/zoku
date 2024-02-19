@@ -3,6 +3,7 @@ const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito"); 
 
+
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const getProducts = async () => {
@@ -23,9 +24,10 @@ const getProducts = async () => {
         let comprar = document.createElement("button");
         comprar.innerText = "✚ Agregar al Carrito";
         comprar.className = "comprar";
-    
+        
+
         content.append(comprar);
-    
+
         comprar.addEventListener("click", () => {
     
             const repeat = carrito.some((repeatProduct) => repeatProduct.id === product.id);
@@ -47,6 +49,17 @@ const getProducts = async () => {
             }
             carritoCounter();
             saveLocal();
+
+        // Alerta
+        Toastify({
+            text: "Pruducto Agregado al Carrito ",
+            duration: 2000,
+            gravity: 'bottom',
+            close: true,
+            style: {
+                background: "#00b09b",
+              }
+            }).showToast();
         });
     });  
 };
@@ -61,5 +74,3 @@ const saveLocal = () => {
 };
 
 carritoCounter();
-
-
