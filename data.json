@@ -4,5 +4,7 @@
     { "id": 3, "nombre": "Tokyo Revengers 13", "precio": 5500, "img": "./img/manga3.png","cantidad": 1 },
     { "id": 4, "nombre": "Jujutsu Kaisen 01", "precio": 8000, "img": "./img/manga4.png", "cantidad": 1 },
     { "id": 5, "nombre": "Akira Volumen 04", "precio": 12500, "img": "./img/manga5.png", "cantidad": 1 },
-    { "id": 6, "nombre": "Attack on Titan 01", "precio": 4300, "img": "./img/manga6.png", "cantidad": 1 }
+    { "id": 6, "nombre": "Attack on Titan 01", "precio": 4300, "img": "./img/manga6.png", "cantidad": 1 },
+    { "id": 7, "nombre": "One Piece 76", "precio": 4950, "img": "./img/manga7.png", "cantidad": 1 },
+    { "id": 8, "nombre": "Dragon Ball S 12", "precio": 5500, "img": "./img/manga8.png", "cantidad": 1 }
 ]

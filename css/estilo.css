@@ -43,18 +43,10 @@ h3{
 .navbar{
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    height: auto;
     background-color: rgb(0, 0, 0);
 }
 
-@media (max-width: 768px){
-    .navbar{
-        height: 10vh;
-    }
-    .cantidad-carrito{
-
-    }
-}  
 
 .navbar-logo{
     justify-self: start;
@@ -82,8 +74,9 @@ h3{
     padding-bottom: 2px;
     padding-left: 6px;
     padding-right: 6px;
-    top: 65px;
-    right: 14px;
+    margin-top: -20px;
+    top: auto;
+    right: 40px;
     position: absolute;
     display: none;
 }
