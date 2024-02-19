@@ -253,6 +253,7 @@ h4{
     cursor: pointer;
     font-size: 14px;
     border: 1px solid white;
+    border-radius: 3px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
